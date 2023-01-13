@@ -1,0 +1,43 @@
+.body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  
+}
+  
+.black{
+    background-color: cadetblue;
+}
+.tag {
+    text-align: center;
+    /* background-color: black; */
+    margin-bottom: 4%;
+   
+    z-index: 999;
+}
+  
+.slick-slide img {
+    margin: auto;
+    width: 30%;
+    height: 30%;
+   
+}
+.hb{
+    margin-bottom: 10%;
+}
+.trainer{
+    color: red;
+  padding: 4%;
+  font-weight: bold;
+}
+
+.src{
+    /* justify-content: space-around; */
+    
+    /* justify-content: space-between; */
+    margin-right: 60px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
