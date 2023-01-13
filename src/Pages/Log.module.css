@@ -1,0 +1,39 @@
+
+.Form{
+    border: 1px black solid;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    padding: 60px;
+    background-color: rgb(220, 208, 223);
+    border-radius: 7px;
+    box-shadow: 3px 4px 6px 4px;
+    flex-wrap: wrap;
+}
+.Body{
+    background-color: rgb(84, 77, 109);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    display: flex;
+
+}
+.Header{
+    font-weight: 700;
+    margin-left: 150px;
+}
+.input{
+    width: 60vh;
+}
+.btn{
+    margin-left: 159px;
+}
+.bt{
+    margin-left: 120px;
+}
+.btnn{
+    margin-left: 160px;
+}

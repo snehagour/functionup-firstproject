@@ -1,0 +1,37 @@
+
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+   
+
+}
+.half{
+    width: 50%;
+    height: 100vh;
+    margin-right: 20px;
+    padding: 2.5%;
+    /* display: flex; */
+    
+}
+.pale{
+    justify-content: center;
+    color: red;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 2.5%;
+}
+.pa{
+   color: white; 
+}
+
+.half1{
+    width: 50%;
+    height: 100vh;
+    padding: 3.5%;
+    /* display: flex; */
+}
+
+
+
