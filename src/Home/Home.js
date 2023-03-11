@@ -17,7 +17,6 @@ function Home() {
 
 const onImageChange = (event) => {
  if (event.target.files[0] ) {
-   console.log(event.target.files[0])
    setImage(URL.createObjectURL(event.target.files[0]));
  }
 }
@@ -152,7 +151,7 @@ function handleClick(data) {
           format: "a4",
           compress: false,
         });
-        pdfDoc.addImage(imageData, "PNG", 0, 0, 210, 297, "", "FAST");
+        pdfDoc.addImage(imageData, "PNG", 0, 0, 210, 297 );
         pdfDoc.save("document.pdf");
       }
 
@@ -186,3 +185,8 @@ function handleClick(data) {
 }
 
 export default Home
+
+
+
+
+

@@ -3,11 +3,11 @@
     width: 100vw;
     /* border: 1px red solid; */
     text-align: center;
-    background-color: rgb(238, 233, 233);
+    background-color:white;
 }
 .img{
     height: 5rem;
-    width: 5rem;
+    width: 15rem;
     /* border: 1px red solid; */
 }
 .main span{

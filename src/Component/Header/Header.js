@@ -32,7 +32,7 @@ const Header = ({ handleTextStyle ,handleColor,onImageChange,handleClick}) => {
     { icon: <UndoIcon/>},
     { icon: <RedoIcon/> },
     { icon: <LocalPrintshopIcon/>  },
-    { icon: <FormatBoldIcon />,},
+    { icon: <FormatBoldIcon />},
     {  icon: <FormatItalicIcon />,},
     {icon: <FormatUnderlinedIcon />,},
     {  icon: <StrikethroughSIcon /> },

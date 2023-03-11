@@ -4,8 +4,8 @@ import style from "./TitleBar.module.css"
 export default function TitleBar() {
   return (
     <div className={style.main}>
-       <img className={style.img} src="https://media1.giphy.com/media/2epS8zhisYtHDCKrWv/giphy.gif" alt="img" />
-       <span>OOGLE Doc</span>
+       <img className={style.img} src="https://thecanadiantechie.files.wordpress.com/2015/09/google_2015.gif" alt="img" />
+     
     </div>
   )
 }
