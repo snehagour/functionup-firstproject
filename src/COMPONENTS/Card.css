@@ -1,0 +1,42 @@
+.card-container{
+    
+    width: 85%;
+    margin-top: 50px;
+
+}
+
+.container{
+    height: 60vh;
+    width: 27%;
+    background-color: rgb(68, 11, 121);
+    border-radius: 28px;
+    box-shadow: 0cap;
+    text-align: center;
+    color: white;
+    margin: 8px;
+    float: right;
+    margin-top: 20px;
+    
+    
+
+    
+    
+
+}
+
+img{
+    height: 10vh;
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-right: 200px;
+    margin-top: 20px;
+
+}
+button{
+    color: aqua;
+    background-color: black;
+    width: 100px;
+    height: 5vh;
+    margin-top: 40px;
+}
