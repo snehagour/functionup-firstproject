@@ -11,8 +11,9 @@
 .main{
    
     display: flex;
-    height: 100vh;
+    height: auto;
     background-color: rgb(52, 60, 60);
+    /* margin-bottom: -2rem; */
     
 
 }
@@ -23,6 +24,7 @@
     margin-top: 35px;
     display: flex;
     justify-content: center;
+    /* margin-top: 2rem; */
     
     
 }
@@ -36,7 +38,7 @@
    
     height: 50vh;
     width: 30vh;
-    margin-top: 140px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +58,7 @@
 .Card2{
     margin-left: 20px;
     height: 60vh;
-    margin-top: 100px;
+    margin-top: 10px;
     width: 30vh;
     border: 1px rgb(230, 165, 53) solid;
     display: flex;
@@ -87,4 +89,63 @@
 .h{
     font-size: 15px;
     font-weight: 700;
+}
+
+@media screen and (max-width:710px){
+    .main{
+        margin-top: -3rem;
+        display: block;
+        height: auto;
+        background-color: rgb(52, 60, 60);
+    }
+    .rightDiv{
+        margin-top: 3rem;
+        height: 90vh;
+        width: 100vh;
+        margin-top: 35px;
+        /* display: flex;
+        justify-content: center; */
+        /* margin-top: 2rem; */
+        
+        
+    }
+    .leftDiv{
+      margin-top: -3rem;
+        height: 90vh;
+        width: 120vh;
+        margin-top: 35px;
+    }
+    .Member{
+        height: 60px;
+    }
+    .Card1{
+   
+        height: 50vh;
+        width: 30vh;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: cadetblue;
+        box-shadow: 2px 2px 4px 1px;
+        border-radius: 40px;
+         
+    }
+    .Card2{
+        margin-left: 20px;
+        height: 60vh;
+        margin-top: 70px;
+        width: 30vh;
+        border: 1px rgb(230, 165, 53) solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 4px 1px;
+        border-radius: 40px;
+    }
+       
+    
 }
