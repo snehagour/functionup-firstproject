@@ -6,16 +6,17 @@
 }
 
 .container{
-    height: 60vh;
-    width: 27%;
-    background-color: rgb(68, 11, 121);
+    height: 83vh;
+    width: 33%;
+    background-color: rgb(169, 60, 232);
     border-radius: 28px;
     box-shadow: 0cap;
     text-align: center;
     color: white;
-    margin: 8px;
+    margin: 2px ;
     float: right;
     margin-top: 20px;
+    
     
     
 
@@ -25,18 +26,46 @@
 }
 
 img{
-    height: 10vh;
-    width: 20%;
-    border-radius: 50%;
-    border: 5px solid white;
+    height: 20vh;
+    width: 40%;
     margin-right: 200px;
     margin-top: 20px;
+    margin-left: 110px;
+    border-radius: 20px;
 
 }
 button{
     color: aqua;
-    background-color: black;
-    width: 100px;
-    height: 5vh;
-    margin-top: 40px;
+    background-color: rgb(176, 135, 135);
+    width: 100%;
+    border-radius: 20PX;
+    height: 10vh;
+    margin-top:10px;
+}
+.description{
+    color: rgb(162, 12, 12);
+
+    width: 80%;
+    margin-left: 30px;
+
+    margin-bottom: 5px;
+
+}
+.name{
+font-size: 30px;
+
+}
+.id{
+font-size: 20px;
+}
+.price{
+font-size: 20px;
+color: blue;
+}
+.rating{
+font-size: 25px;
+color: yellow;
+}
+.description{
+font-size: 20px;
 }
