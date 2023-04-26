@@ -1,0 +1,17 @@
+.butt{
+    font-size: 15px;
+    color: brown;
+    background-color: rgb(84, 250, 222);
+    margin-left: 2px;
+}
+.text{
+    font-size: 20px;
+}
+.button2{
+    height: 30vh;
+    background-color: rgb(130, 205, 11);
+    width: 30%;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
