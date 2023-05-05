@@ -38,6 +38,7 @@
 } */
 .App{
   text-align: center;
+  justify-content: center;
   width: 20%;
   height: 20vh;
   background-color: aqua;

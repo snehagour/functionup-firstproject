@@ -1,36 +1,29 @@
 
 import { useState } from 'react';
 import './App.css';
+import axios from "axios";
 
 function App() {
- const [mobilenumber,setMobilenumber] =useState()
+ const [mobileNumber,setMobileNumber] =useState()
   
  function handle(){
-  if(mobilenumber < 999967896 || mobilenumber >= 56567890342){
+  if(mobileNumber < 999967896 || mobileNumber >= 56567890342){
     alert ("Invalid mobile number")
     console.error("invalid number")
     return;
   }
-  fetch( "https://cdn-api.co-vin.in/api/v2/auth/public/generateOTP",{
-    method:"POST",
-    headers:{
-      "content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      mobile: mobilenumber
-    })
+  axios.post('https://cdn-api.co-vin.in/api/v2/auth/public/generateOTP', {
+    mobile:mobileNumber
   })
-
-     .then((res)=> res.json())
-     .then((data)=> {
-      setMobilenumber(" ");
-      alert("succesfully")
-      console.log(data);
-     })
-     .catch(error=>{
-      alert("plase retry, somthing went wrong")
-      console.error(error);
-     });
+  .then(function (response) {
+    setMobileNumber('');
+    alert('Successfully delivered the otp!!!');    
+    console.log(response);
+  })
+  .catch(function (error) {
+    alert('Please retry, something went wrong!!!');
+    console.log(error);
+  });
       }
   return (
     <div className='App'>
@@ -55,8 +48,8 @@ function App() {
             message:"min 10 character",
           }
         }}
-        onChange={e=>setMobilenumber(e.target.value)}
-        value={mobilenumber}
+        onChange={e=>setMobileNumber(e.target.value)}
+        value={mobileNumber}
         ></input>
       </form>
       <button type="sumit" onClick={handle}>Get otp</button>
