@@ -1,0 +1,36 @@
+.wrapper{
+    width: 70% ;
+    margin: auto;
+    padding: 2rem ;
+    max-width: 70%;
+    display: flex;
+    overflow:scroll;  
+}
+ 
+.wrapper::-webkit-scrollbar {
+    display: none;
+  }
+.card{
+    
+    height: 400px;
+    min-height: 300px;
+    background-color:rgb(74, 160, 235);
+    min-width: 250px;
+    border-radius: 12px;
+    margin-right: 2rem;
+    border: 5px solid aliceblue;
+    
+}
+.rolex{
+
+    border-radius: 130%;
+    border:2px solid white;
+    height: 50%;
+    width:80%;
+    margin-top: 20px;
+   
+}
+
+.paragraph{ 
+    color: blue;
+}
