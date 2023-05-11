@@ -1,0 +1,25 @@
+.board-container{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    width: 900px;
+    margin-top: 60px;
+    margin-left: 30px;
+
+    
+}
+
+button{
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(120, 120, 172);
+    background-color: rgb(250, 31, 31);
+    color: blue;
+}
+h4{
+    text-align: center;
+margin-left: 50px;
+border: 1px solid black;
+margin-right: 20px;
+background-color: aquamarine;
+}
