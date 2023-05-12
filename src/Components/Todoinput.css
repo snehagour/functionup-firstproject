@@ -1,0 +1,19 @@
+
+.container{
+    margin-top: 10px ;
+
+    
+}
+.input-box{
+    font-size: 30px;
+    border-radius: 10px;
+    height: 10vh;
+}
+button{
+    font-size: 40px;
+    border-radius: 15px;
+    height: 10vh;
+    width: 5vw;
+    color: rgb(12, 2, 22);
+    background-color: cadetblue;
+}

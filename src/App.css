@@ -1,0 +1,20 @@
+.main-container{
+  height: 70vh;
+  width: 40vw;
+  background-color: aqua;
+  text-align: center;
+  padding-top: 15px;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: 50px;
+  justify-content: center;
+
+}
+.center-container{
+  margin-top: 50px;
+}
+
+h1:hover{
+  color:red ;
+}
+

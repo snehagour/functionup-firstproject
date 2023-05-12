@@ -1,0 +1,14 @@
+.list-item{
+    font-size: 30px;
+    background-color: rgb(232, 203, 60);
+    border: 1px solid black;
+     margin-top: 7px;
+     text-align: left;
+    border-radius: 5px;
+    
+}
+.font{
+    font-size: 40px;
+    color: rgb(243, 32, 32);
+    margin-left: 300px;
+}
