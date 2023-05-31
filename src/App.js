@@ -1,10 +1,13 @@
 import './App.css';
-import Signin from './components/pages/Signin';
+import Whotofollow from './HOMEPAGE/Whotofollow';
+// import Signin from './components/pages/Signin';
+
 
 function App() {
   return (
     <div className="App">
-      <Signin/>
+      {/* <Signin/> */}
+      <Whotofollow/>
     </div>
   );
 }

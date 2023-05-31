@@ -1,0 +1,65 @@
+.container {
+  width: 30%;
+  height: 60%;
+  background-color: rgb(252, 252, 252);
+}
+
+
+h4{
+margin-right: 100px;
+font-size: 15px;
+}
+.button1 {
+  width: 80%;
+  border: none;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+  
+}
+.follow {
+  border-radius: 20px;
+  width: 7rem;
+  height: 2rem;
+  margin-top: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  
+}
+.follow:hover {
+ background-color: chocolate;
+}
+
+.showmore {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 800;
+  color: blue;
+  cursor: pointer;
+  
+}
+
+
+.MainContaner{
+    display: grid;
+    margin-top: 2rem;
+    gap: 5px;
+}
