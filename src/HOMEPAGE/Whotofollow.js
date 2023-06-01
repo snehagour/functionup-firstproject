@@ -25,13 +25,14 @@ function Whotofollow() {
         (four == 'follow')?setFour('following'):setFour('follow')
     }
     return (
+        <div className={style.firstcontainer}>
         <div className={style.container}>
             <h2>Who to follow</h2>
             <div  className={style.MainContaner} >
                 <button 
                 style={{border:'none'}}
                     type="button"
-                    class="btn btn-secondary"
+                    // class="btn btn-secondary"
                     data-toggle="tooltip"
                     data-placement="top"
                     title='Akshay Kumar akshay@gmail.com Rajiv Hari Om Bhatia (born 9 September 1967),[4] known professionally as Akshay Kumar (pronounced [əkˈʂəj kʊˈmɑːɾ]), is an Indian-born naturalised Canadian[1][2][3] actor and film producer who works in Hindi cinema.'
@@ -100,6 +101,7 @@ function Whotofollow() {
                 </button>
                 <p className={style.showmore}>Show More</p>
             </div>
+        </div>
         </div>
     );
 }

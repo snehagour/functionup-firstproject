@@ -1,17 +1,23 @@
+
 .container {
-  width: 30%;
-  height: 60%;
+  width: 25%;
+  height: 50%;
   background-color: rgb(252, 252, 252);
+  margin-top:300px;
+  margin-left: 925px;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-top: 20px;
 }
 
 
 h4{
-margin-right: 100px;
-font-size: 15px;
+font-size: 10px;
 }
 .button1 {
-  width: 80%;
+  width: 1rem;
   border: none;
+  
 }
 
 .container3 {
@@ -20,8 +26,8 @@ font-size: 15px;
 }
 
 .img1 {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 
 }
@@ -33,9 +39,14 @@ font-size: 15px;
   
   
 }
+
+h2{
+  margin-left: 1rem;
+  
+}
 .follow {
   border-radius: 20px;
-  width: 7rem;
+  width: 5rem;
   height: 2rem;
   margin-top: 15px;
   font-weight: 800;
@@ -45,21 +56,24 @@ font-size: 15px;
   
 }
 .follow:hover {
- background-color: chocolate;
+ background-color: rgb(94, 54, 26);
 }
 
 .showmore {
-  font-size: 20px;
+  font-size: 10px;
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 700;
   color: blue;
   cursor: pointer;
-  
 }
 
-
+ 
 .MainContaner{
     display: grid;
     margin-top: 2rem;
     gap: 5px;
-}
+    width: 80%;
+    margin-left: 1rem;
+} 
+
+
