@@ -14,7 +14,7 @@ function Whotofollow() {
     // const [isShown, setIsShown] = useState(false);
 
     const handelClick = () => {
-        (first == 'follow') ? setFirst('following') : setFirst('follow')
+        (first == 'follow') ? setFirst('following') : setFirst('unfollow')
     }
     const handelClick2 = () => {
         (second == 'follow') ? setSecond('following') : setSecond('unfollow')
@@ -52,7 +52,6 @@ function Whotofollow() {
                         class="btn btn-secondary"
                         data-toggle="tooltip"
                         data-placement="top"
-                        title='andeep Kumar anoop@gmail.com Rajiv Hari Om Bhatia (born 9 September 1967),[4] known professionally as Akshay Kumar (pronounced [əkˈʂəj kʊˈmɑːɾ]), is an Indian-born naturalised Canadian[1][2][3] actor and film producer who works in Hindi cinema.'
 
                     >
                         <div className={style.container3}>
