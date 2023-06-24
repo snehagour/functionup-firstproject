@@ -23,10 +23,6 @@ import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
 import ImageIcon from '@mui/icons-material/Image';
 
 const Header = ({ handleTextStyle ,handleColor,onImageChange,handleClick}) => {
-
-
-
-
  
   const data = [
     { icon: <UndoIcon/>},

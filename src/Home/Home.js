@@ -175,8 +175,7 @@ function handleClick(data) {
       <button onClick={handleDownload}><img className={style.DownloadIcon} src="https://icon-library.com/images/download-icon-png/download-icon-png-14.jpg" /></button>
  <div   ref={myDiv} className={style.para} contentEditable={true}>
  {image ?
-    <img   src={image} alt="preview image" />: ""
-}
+    <img   src={image} alt="preview image" />: " "}
  </div>
 </div>
 </div>
@@ -186,7 +185,4 @@ function handleClick(data) {
 
 export default Home
 
-
-
-
-
+ 
