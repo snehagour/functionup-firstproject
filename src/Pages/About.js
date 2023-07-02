@@ -1,4 +1,3 @@
-// import React from 'react'
 import React from 'react'
 import ReactPlayer from 'react-player/youtube'
 import '../Pages/About.css'
@@ -35,4 +34,4 @@ function About() {
   )
 }
 
-export default About
+export default About;

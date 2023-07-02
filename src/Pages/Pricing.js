@@ -1,7 +1,6 @@
 
-
-import React from 'react'
-import style from "./Pricing.module.css"
+import React from 'react';
+import style from "./Pricing.module.css";
 
 function Pricing() {
     return (
