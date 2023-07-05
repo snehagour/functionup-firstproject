@@ -1,0 +1,18 @@
+
+  #myInput{
+     width: 25rem;
+     height: 35rem;
+     background-color: aquamarine;
+     text-align: center;
+     justify-content: center;
+     padding-top: 20px;
+     font-size: 20px;
+
+  }
+
+  
+  input{
+    font-size: 20px;
+    width: 10rem;
+    height: 2rem;
+  }
