@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import EmojiPicker, {Emoji} from "emoji-picker-react"
 
 function App() {
+const [searchitem, setSearchitem]= useState("");
+
+
+function onClick (emojidata){
+    setSearchitem(emojidata.unified);
+}
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>React Emoji App</h1>
+      <div>
+        {searchitem? <Emoji unified={searchitem} size={52}/>:null}
+      </div>
+      <EmojiPicker onEmojiClick={onClick}/>
     </div>
-  );
+  )
 }
 
 export default App;
